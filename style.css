@@ -1,0 +1,58 @@
+#header-div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+#header-div > * {
+    max-height: 79.88px;
+}
+#main-section {
+    display: flex;
+    flex-flow: row wrap;
+}
+#locations {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 75%;
+}
+#locations > * {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 33%;
+}
+
+.images-div {
+    display: flex;
+    width: 75%;
+    height: auto;
+    justify-content: center;
+}
+.images-div img {
+    align-self: center;
+    max-height: 150px;
+    max-height: 150px;
+}
+#guests {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    width: 25%
+}
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 75px;
+}
+
+#park-services {
+    width: 100%;
+}
+
+#park-services > * {
+    margin-right: 5px;
+}
